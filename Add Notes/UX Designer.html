@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>LinkedIn Add Note</h1>
+<h2>Enter the name below</h2>
+
+<p>Click the button and enter the name.</p>
+
+<button onclick="myFunction()">Enter</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let person = prompt("Please enter name", "Harry Potter");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+    "Hi " + person + ",<br>I am Jabar from VDart and I am Hiring for a Remote UX Designer Role across Mexico and LATAM locations. Please let me know if you are interested and kindly respond with your resume to jabar.k@vdartinc.com.";
+  }
+}
+</script>
+<p>Kind & Regards<br>Jabar<br>+1 470 682 3892<br>jabar.k@vdartinc.com</p>
+</body>
+</html>
